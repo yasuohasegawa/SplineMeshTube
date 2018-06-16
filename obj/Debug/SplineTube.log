@@ -1,0 +1,18 @@
+﻿  Tube.cpp
+  ofApp.cpp
+c:\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofvec3f.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています src\Tube.cpp)
+c:\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofvec2f.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています src\Tube.cpp)
+c:\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofvec3f.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています src\ofApp.cpp)
+c:\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofvec2f.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています src\ofApp.cpp)
+c:\users\yasuo\desktop\works\of\splinetube\src\tube.cpp(45): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\yasuo\desktop\works\of\splinetube\src\tube.cpp(145): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\yasuo\desktop\works\of\splinetube\src\tube.cpp(154): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\yasuo\desktop\works\of\splinetube\src\tube.cpp(156): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  SplineTube.vcxproj -> C:\Users\yasuo\Desktop\WORKS\OF\SplineTube\bin\SplineTube_debug.exe
+  
+  	                   2	C:\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\Win32\
+  	  *EXTRA File 		 5647872	C:\Users\yasuo\Desktop\WORKS\OF\SplineTube\bin\FreeImage.dll
+  
+  	                   1	C:\of_v0.10.0_vs2017_release\libs\FreeImage\lib\vs\Win32\
+  	  *EXTRA File 		 1266176	C:\Users\yasuo\Desktop\WORKS\OF\SplineTube\bin\fmodex.dll
+  	  *EXTRA File 		 1312768	C:\Users\yasuo\Desktop\WORKS\OF\SplineTube\bin\fmodexL.dll
