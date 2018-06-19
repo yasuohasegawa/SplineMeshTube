@@ -1,5 +1,6 @@
 #pragma once
 
+#include "ofxGui.h"
 #include "ofMain.h"
 #include "Tube.h"
 
@@ -21,6 +22,10 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+
+		ofxFloatSlider ctlpointSliderX;
+		ofxFloatSlider ctlpointSliderY;
+		ofxPanel gui;
 
 		Tube t;
 

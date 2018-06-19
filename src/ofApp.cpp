@@ -18,6 +18,10 @@ void ofApp::setup(){
 
 	shader.load("shader/shader.vert", "shader/shader.frag");
 	fbo.allocate(ofGetWidth(), ofGetHeight());
+
+	gui.setup();
+	gui.add(ctlpointSliderX.setup("ctlpointSliderX", 0.0, 0, 3));
+	gui.add(ctlpointSliderY.setup("ctlpointSliderY", 0.0, 0, 3));
 }
 
 //--------------------------------------------------------------
@@ -27,6 +31,7 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+	ofEnableDepthTest();
 	fbo.begin();
 	ofClear(0, 0, 0, 0);
 
@@ -36,6 +41,11 @@ void ofApp::draw(){
 
 	ofEnableLighting();
 
+	// debug spline controll point
+	t.sp.controlPoints[3].x = ctlpointSliderX;
+	t.sp.controlPoints[3].y = ctlpointSliderY;
+
+	// draw mesh tube
 	t.drawMesh();
 
 	ofDisableLighting();
@@ -56,9 +66,13 @@ void ofApp::draw(){
 	fbo.draw(0, 0, ofGetWidth(), ofGetHeight());
 
 	// FPS
-	ofSetColor(255, 0, 0);
+	ofSetColor(0, 0, 0);
 	string msg = "fps: " + ofToString(ofGetFrameRate(), 2);
-	ofDrawBitmapString(msg, 10, 20);
+	ofDrawBitmapString(msg, ofGetWidth()-100, 20);
+	
+	// GUI
+	ofDisableDepthTest();
+	gui.draw();
 }
 
 //--------------------------------------------------------------
